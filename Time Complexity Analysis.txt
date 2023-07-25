@@ -1,0 +1,22 @@
+Time Complexity Analysis:
+The average time complexity of the Quicksort algorithm is O(n log n), and the worst-case time complexity is O(n^2). However, in practice, Quicksort often outperforms other sorting algorithms like Merge Sort due to its cache efficiency and in-place partitioning.
+
+Comparison with Merge Sort:
+Quicksort and Merge Sort both have an average time complexity of O(n log n), but their performance can differ in practice. Quicksort tends to be faster than Merge Sort for small and medium-sized arrays due to its in-place partitioning. However, Merge Sort is stable and guarantees a worst-case time complexity of O(n log n), making it suitable for large datasets and cases where stability is crucial.
+
+Advantages of Quicksort:
+
+Efficient for small and medium-sized arrays.
+In-place sorting, which means it requires minimal additional memory space.
+Good cache locality, which can result in better performance on modern systems.
+
+Disadvantages of Quicksort:
+
+Worst-case time complexity of O(n^2) can occur, although this can be mitigated by using randomized pivot selection.
+Not stable, which means the relative order of equal elements might not be preserved.
+
+Conclusion:
+Quicksort is a widely used sorting algorithm with an average time complexity of O(n log n). It performs well on small and medium-sized datasets and benefits from in-place sorting and cache efficiency. However, it may not be suitable for all scenarios, and users should be cautious of its worst-case time complexity. In real-world applications, the choice of sorting algorithm depends on the specific requirements and characteristics of the data to be sorted.
+
+
+
